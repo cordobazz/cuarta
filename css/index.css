@@ -1,29 +1,74 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
-body {
-    background-color: aqua;
+body{
+    background-color: #C3BAAA
+    ;
+
 }
 
-.uno{
-    height: 200px;
-    background-color: yellow;
+/* TITULO */
+.titulo{
+    background-color: #91818A;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    height: 100px;
+
 }
 
-.dos{
-    height: 200px;
-    background-color: blue;
-}
-
-.tres{
-    height: 200;
-    background-color: red;
+/* CAJAS PRINCIPALES */
+.caja1,
+.caja2,
+.caja3{
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
 }
 
 .caja1{
-    height: 200px;
-    background-color: rgb(117, 79, 79);
+    background-color: #B2A3B5;
+}
+
+.caja2{
+    background-color: #B2A3B5;
+}
+
+.caja3{
+    background-color: #B2A3B5;
+}
+
+/* CUADRITOS */
+.uno{
+    height: 100px;
+    background-color: #FAF8D4;
+
+}
+
+.dos{
+    height: 100px;
+    background-color: #EBDCCB;
+    color: white;
+}
+
+.tres{
+    height: 100px;
+    background-color: #C3BAAA;
+    color: white;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #91818A;
+    border: 1px solid black;
+    color: white;
+    height: 100px;
+}
+
+#cabecera {
+    margin: 20px 0px 20px 0px;
+    border: #FAF8D4 solid 2px;
+    padding: 20 px;
 }
